@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVC MOS Listening Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      background: #ffffff;
+      color: #222;
+    }
+
+    h1, h2 {
+      color: #111;
+    }
+
+    .note {
+      background: #f5f5f5;
+      border-left: 4px solid #555;
+      padding: 12px 16px;
+      margin-bottom: 25px;
+    }
+
+    .group {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 24px;
+      background: #fafafa;
+    }
+
+    .sample {
+      margin: 14px 0;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 6px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 900px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>SVC MOS Listening Test</h1>
+
+  <div class="note">
+    <p>
+      Please listen to the target singer reference first. Then listen to Sample A, Sample B, and Sample C.
+      After listening, rate each sample in the form below based on naturalness and speaker similarity.
+    </p>
+    <p>
+      Please use headphones if possible. Do not refresh the page while completing the test.
+    </p>
+  </div>
+
+  <h2>Group 1</h2>
+  <div class="group">
+    <div class="sample">
+      <strong>Target Singer Reference</strong>
+      <audio controls src="audio/G01_ref.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample A</strong>
+      <audio controls src="audio/G01_A.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample B</strong>
+      <audio controls src="audio/G01_B.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample C</strong>
+      <audio controls src="audio/G01_C.mp3"></audio>
+    </div>
+  </div>
+
+  <h2>Group 2</h2>
+  <div class="group">
+    <div class="sample">
+      <strong>Target Singer Reference</strong>
+      <audio controls src="audio/G02_ref.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample A</strong>
+      <audio controls src="audio/G02_A.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample B</strong>
+      <audio controls src="audio/G02_B.mp3"></audio>
+    </div>
+
+    <div class="sample">
+      <strong>Sample C</strong>
+      <audio controls src="audio/G02_C.mp3"></audio>
+    </div>
+  </div>
+
+  <h2>Rating Form</h2>
+  <p>Please complete the ratings in the embedded Microsoft Form below.</p>
+
+  <!-- Replace the src below with your Microsoft Forms embed link -->
+  <iframe src="YOUR_MICROSOFT_FORMS_EMBED_LINK_HERE">
+    Loading…
+  </iframe>
+</body>
+</html>
